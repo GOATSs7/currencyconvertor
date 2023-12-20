@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #bbcbe2e5;
+  font-family: "Inter", sans-serif;
+}
+.card {
+  background-color: #fff;
+
+  width: 50%;
+  min-width: 750px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 8px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.titlediv {
+  width: fit-content;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+  margin-top: 5px;
+
+  background-color: #fff;
+}
+.titlediv h1 {
+  background-color: #fff;
+}
+
+.rupee {
+  height: 4rem;
+  width: 4rem;
+  background: #fff;
+}
+/* currency exchange */
+.currency_exchange {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #fff;
+}
+.input_container {
+  background-color: #fff;
+  margin-left: 33px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.input_lable b {
+  background-color: #fff;
+}
+
+.input_field {
+  background-color: #fff;
+  width: 190px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 0, 0, 0, 40px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* converted amount */
+.output {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 400px;
+  height: 3em;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #eaccf0;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.output_amount {
+  background-color: #eaccf0;
 }
