@@ -37,6 +37,9 @@
   width: 4rem;
   background: #fff;
 }
+.titleName {
+  margin-top: 30px;
+}
 /* currency exchange */
 .currency_exchange {
   display: flex;
@@ -46,6 +49,7 @@
 }
 .input_container {
   background-color: #fff;
+
   margin-left: 33px;
   margin-top: 10%;
   margin-bottom: 5%;
@@ -58,25 +62,22 @@
   background-color: #fff;
   width: 190px;
   height: 40px;
+
+  padding: 10px;
   border-radius: 5px;
   margin: 0, 0, 0, 40px;
   font-size: 15px;
   font-weight: 600;
 }
 
-/* converted amount */
 .output {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 400px;
-  height: 3em;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  background-color: #eaccf0;
+  background: #ffffff;
 }
 
-.output_amount {
-  background-color: #eaccf0;
+h2 {
+  width: 80%;
+  margin-top: 20px;
+  background-color: #e8f8fd;
+  padding: 26px;
+  border-radius: 10px;
 }
