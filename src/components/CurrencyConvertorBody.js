@@ -20,6 +20,7 @@ const CurrencyConvertorBody = () => {
   }, [fromCurrency]);
 
   useEffect(() => {
+    document.title = "Currency Converter";
     const conersionRate = exchangeRate[toCurrency];
     if (conersionRate) {
       const Converted = amount * conersionRate;
